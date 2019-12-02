@@ -44,9 +44,11 @@ function Recording (options){
       'type'
       // leaving out touchDistance, touchZone
     ]]},
+    /*
     {interactionBox: [
       'center', 'size'
     ]}
+    */
   ];
 
   this.setFrames(options.frames || [])
